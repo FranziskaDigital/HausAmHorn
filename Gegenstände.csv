@@ -1,0 +1,12 @@
+ID;Einrichtungsgegenstand;Kategorie;Personen ID;Unternehmen ID
+1;Aufwaschtisch;Küche;;1
+2;Ausgussbecken;Küche;;1
+3;Schnellwassererhitzer;Küche;;2
+4;Gasherd;Küche;;3
+5;Opakglaswandbekleidung;Küche;;4
+6;Wandschränke;Küche;1, 2;5
+7;Vorratsschränke;Küche;1, 2;5
+8;Arbeitstisch mit Schublade;Küche;1, 2;5
+9;Stühle;Küche;1, 2;5
+10;Deckenleuchte;Küche;;5
+11;Vorratsgefäße;Küche;3;5, 6
