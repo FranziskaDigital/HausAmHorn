@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0bd4c45653c4cfd8056367928785b02f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0bd4c45653c4cfd8056367928785b02f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0bd4c45653c4cfd8056367928785b02f = L.map(
+                "map_0bd4c45653c4cfd8056367928785b02f",
+                {
+                    center: [51.1657, 10.4515],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a92ce18aa02d6a5c5e1ea2d0c5ab8691 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_a92ce18aa02d6a5c5e1ea2d0c5ab8691.addTo(map_0bd4c45653c4cfd8056367928785b02f);
+        
+    
+            var marker_d37f92d86da746a3f3d027ff0deab8ea = L.marker(
+                [53543.0, 9998.0],
+                {}
+            ).addTo(map_0bd4c45653c4cfd8056367928785b02f);
+        
+    
+        var popup_ad3823c90a39e802c8568a5fc22d5f7c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a8d0f6c0f78a81a3f871926b36324676 = $(`<div id="html_a8d0f6c0f78a81a3f871926b36324676" style="width: 100.0%; height: 100.0%;">     <b>Unternehmen:</b> Triton Werke Hamburg<br>     <b>Standort:</b> Hamburg<br>     <b>Identifier:</b> <a href="https://www.wikidata.org/wiki/Q107017368" target="_blank">Website</a><br>     </div>`)[0];
+                popup_ad3823c90a39e802c8568a5fc22d5f7c.setContent(html_a8d0f6c0f78a81a3f871926b36324676);
+            
+        
+
+        marker_d37f92d86da746a3f3d027ff0deab8ea.bindPopup(popup_ad3823c90a39e802c8568a5fc22d5f7c)
+        ;
+
+        
+    
+    
+            marker_d37f92d86da746a3f3d027ff0deab8ea.bindTooltip(
+                `<div>
+                     Triton Werke Hamburg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_39c29c41086051514583b3a6f28383ff = L.marker(
+                [51.83066, 12.24306],
+                {}
+            ).addTo(map_0bd4c45653c4cfd8056367928785b02f);
+        
+    
+        var popup_b932886f58fd7f1fc187a677bd37bbab = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_fa2f6e9f9e7e1d699940a2b627773476 = $(`<div id="html_fa2f6e9f9e7e1d699940a2b627773476" style="width: 100.0%; height: 100.0%;">     <b>Unternehmen:</b> Junkers & Co. Dessau<br>     <b>Standort:</b> Dessau<br>     <b>Identifier:</b> <a href="https://www.wikidata.org/wiki/Q1713670" target="_blank">Website</a><br>     </div>`)[0];
+                popup_b932886f58fd7f1fc187a677bd37bbab.setContent(html_fa2f6e9f9e7e1d699940a2b627773476);
+            
+        
+
+        marker_39c29c41086051514583b3a6f28383ff.bindPopup(popup_b932886f58fd7f1fc187a677bd37bbab)
+        ;
+
+        
+    
+    
+            marker_39c29c41086051514583b3a6f28383ff.bindTooltip(
+                `<div>
+                     Junkers & Co. Dessau
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5f4fb543c10d7117497e037824af5299 = L.marker(
+                [52.2031, 8.5814],
+                {}
+            ).addTo(map_0bd4c45653c4cfd8056367928785b02f);
+        
+    
+        var popup_da6a29883d0b45785d57748263e69136 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_aea78e9f870c8d9c3f1174ce608c7158 = $(`<div id="html_aea78e9f870c8d9c3f1174ce608c7158" style="width: 100.0%; height: 100.0%;">     <b>Unternehmen:</b> Imperial Bünde Westf.<br>     <b>Standort:</b> Bünde<br>     <b>Identifier:</b> <a href="https://www.wikidata.org/wiki/Q1660275" target="_blank">Website</a><br>     </div>`)[0];
+                popup_da6a29883d0b45785d57748263e69136.setContent(html_aea78e9f870c8d9c3f1174ce608c7158);
+            
+        
+
+        marker_5f4fb543c10d7117497e037824af5299.bindPopup(popup_da6a29883d0b45785d57748263e69136)
+        ;
+
+        
+    
+    
+            marker_5f4fb543c10d7117497e037824af5299.bindTooltip(
+                `<div>
+                     Imperial Bünde Westf.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0892ad2b24eab1a448573a0897b838a3 = L.marker(
+                [51.92825, 9.89697],
+                {}
+            ).addTo(map_0bd4c45653c4cfd8056367928785b02f);
+        
+    
+        var popup_0e648b2b0a3f75f26cd73a6601655cd9 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_8e576b3b7c143c997dd7560e48248433 = $(`<div id="html_8e576b3b7c143c997dd7560e48248433" style="width: 100.0%; height: 100.0%;">     <b>Unternehmen:</b> Dt. Spiegelglas A. G.<br>     <b>Standort:</b> Freden (Leine)<br>     <b>Identifier:</b> <a href="https://www.wikidata.org/wiki/Q42302014" target="_blank">Website</a><br>     </div>`)[0];
+                popup_0e648b2b0a3f75f26cd73a6601655cd9.setContent(html_8e576b3b7c143c997dd7560e48248433);
+            
+        
+
+        marker_0892ad2b24eab1a448573a0897b838a3.bindPopup(popup_0e648b2b0a3f75f26cd73a6601655cd9)
+        ;
+
+        
+    
+    
+            marker_0892ad2b24eab1a448573a0897b838a3.bindTooltip(
+                `<div>
+                     Dt. Spiegelglas A. G.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3cab162040e093410aca068489146d9b = L.marker(
+                [50.9778, 11.3297],
+                {}
+            ).addTo(map_0bd4c45653c4cfd8056367928785b02f);
+        
+    
+        var popup_cd3fb78df4bf6c47433af61c490a1460 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_20b8e8ac50e3d12c43ad94953b6e2a6a = $(`<div id="html_20b8e8ac50e3d12c43ad94953b6e2a6a" style="width: 100.0%; height: 100.0%;">     <b>Unternehmen:</b> Staatliches Bauhaus Weimar<br>     <b>Standort:</b> Weimar<br>     <b>Identifier:</b> <a href="https://www.wikidata.org/wiki/Q124354" target="_blank">Website</a><br>     </div>`)[0];
+                popup_cd3fb78df4bf6c47433af61c490a1460.setContent(html_20b8e8ac50e3d12c43ad94953b6e2a6a);
+            
+        
+
+        marker_3cab162040e093410aca068489146d9b.bindPopup(popup_cd3fb78df4bf6c47433af61c490a1460)
+        ;
+
+        
+    
+    
+            marker_3cab162040e093410aca068489146d9b.bindTooltip(
+                `<div>
+                     Staatliches Bauhaus Weimar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d6c3f7de46595bbaec90242a2066af3d = L.marker(
+                [52.68812, 13.17793],
+                {}
+            ).addTo(map_0bd4c45653c4cfd8056367928785b02f);
+        
+    
+        var popup_8eace53ba4607f7893f8ed40d2567fb6 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ff5cf4004cffcc53157e6a00775dae0b = $(`<div id="html_ff5cf4004cffcc53157e6a00775dae0b" style="width: 100.0%; height: 100.0%;">     <b>Unternehmen:</b> Steingutfabrik Velten-Vordamm<br>     <b>Standort:</b> Velten-Vordamm<br>     <b>Identifier:</b> <a href="https://www.wikidata.org/wiki/Q48755937" target="_blank">Website</a><br>     </div>`)[0];
+                popup_8eace53ba4607f7893f8ed40d2567fb6.setContent(html_ff5cf4004cffcc53157e6a00775dae0b);
+            
+        
+
+        marker_d6c3f7de46595bbaec90242a2066af3d.bindPopup(popup_8eace53ba4607f7893f8ed40d2567fb6)
+        ;
+
+        
+    
+    
+            marker_d6c3f7de46595bbaec90242a2066af3d.bindTooltip(
+                `<div>
+                     Steingutfabrik Velten-Vordamm
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3be7f778f9ad94c20eec11bddeafaf30 = L.marker(
+                [50.9279, 11.5889],
+                {}
+            ).addTo(map_0bd4c45653c4cfd8056367928785b02f);
+        
+    
+        var popup_6d9b00ec1d621aa9b8026327a888b5e5 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_744b6d78de593599708fd2d9a4387f4b = $(`<div id="html_744b6d78de593599708fd2d9a4387f4b" style="width: 100.0%; height: 100.0%;">     <b>Unternehmen:</b> Schott & Gen. Glaswerke Jena<br>     <b>Standort:</b> Jena<br>     <b>Identifier:</b> <a href="https://www.wikidata.org/wiki/Q565558" target="_blank">Website</a><br>     </div>`)[0];
+                popup_6d9b00ec1d621aa9b8026327a888b5e5.setContent(html_744b6d78de593599708fd2d9a4387f4b);
+            
+        
+
+        marker_3be7f778f9ad94c20eec11bddeafaf30.bindPopup(popup_6d9b00ec1d621aa9b8026327a888b5e5)
+        ;
+
+        
+    
+    
+            marker_3be7f778f9ad94c20eec11bddeafaf30.bindTooltip(
+                `<div>
+                     Schott & Gen. Glaswerke Jena
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5dc27908190a1bf4f3cf1c027bf7661f = L.marker(
+                [52.5087, 13.4047],
+                {}
+            ).addTo(map_0bd4c45653c4cfd8056367928785b02f);
+        
+    
+        var popup_7226f06091dc6e045f453ddb2c58005f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f35af1ad01fdf4fa2ea7fba83adb9cb1 = $(`<div id="html_f35af1ad01fdf4fa2ea7fba83adb9cb1" style="width: 100.0%; height: 100.0%;">     <b>Unternehmen:</b> Berlin-Burger Eisenwerk<br>     <b>Standort:</b> Berlin<br>     <b>Identifier:</b> <a href="Unbekannt" target="_blank">Website</a><br>     </div>`)[0];
+                popup_7226f06091dc6e045f453ddb2c58005f.setContent(html_f35af1ad01fdf4fa2ea7fba83adb9cb1);
+            
+        
+
+        marker_5dc27908190a1bf4f3cf1c027bf7661f.bindPopup(popup_7226f06091dc6e045f453ddb2c58005f)
+        ;
+
+        
+    
+    
+            marker_5dc27908190a1bf4f3cf1c027bf7661f.bindTooltip(
+                `<div>
+                     Berlin-Burger Eisenwerk
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a57483a7868b5a62055a4e7ccbd9a4c8 = L.marker(
+                [53.544, 10.014],
+                {}
+            ).addTo(map_0bd4c45653c4cfd8056367928785b02f);
+        
+    
+        var popup_fbfb23229a2c19a6b63dd5dc5659b8cb = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0c7ed0652d57eed32ad321293c84130c = $(`<div id="html_0c7ed0652d57eed32ad321293c84130c" style="width: 100.0%; height: 100.0%;">     <b>Unternehmen:</b> C. Arnoldi Hamburg<br>     <b>Standort:</b> Hamburg<br>     <b>Identifier:</b> <a href="Unbekannt" target="_blank">Website</a><br>     </div>`)[0];
+                popup_fbfb23229a2c19a6b63dd5dc5659b8cb.setContent(html_0c7ed0652d57eed32ad321293c84130c);
+            
+        
+
+        marker_a57483a7868b5a62055a4e7ccbd9a4c8.bindPopup(popup_fbfb23229a2c19a6b63dd5dc5659b8cb)
+        ;
+
+        
+    
+    
+            marker_a57483a7868b5a62055a4e7ccbd9a4c8.bindTooltip(
+                `<div>
+                     C. Arnoldi Hamburg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ac93399ed2292eac8a55b6623aea91af = L.marker(
+                [50.9379, 6.9633],
+                {}
+            ).addTo(map_0bd4c45653c4cfd8056367928785b02f);
+        
+    
+        var popup_720784ac590e163329a259bdb7a59b6a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_1d764cd84f0c32ada922af20f44f1a8b = $(`<div id="html_1d764cd84f0c32ada922af20f44f1a8b" style="width: 100.0%; height: 100.0%;">     <b>Unternehmen:</b> Verein dt. Spiegelglasfabriken GmbH Köln<br>     <b>Standort:</b> Köln<br>     <b>Identifier:</b> <a href="Unbekannt" target="_blank">Website</a><br>     </div>`)[0];
+                popup_720784ac590e163329a259bdb7a59b6a.setContent(html_1d764cd84f0c32ada922af20f44f1a8b);
+            
+        
+
+        marker_ac93399ed2292eac8a55b6623aea91af.bindPopup(popup_720784ac590e163329a259bdb7a59b6a)
+        ;
+
+        
+    
+    
+            marker_ac93399ed2292eac8a55b6623aea91af.bindTooltip(
+                `<div>
+                     Verein dt. Spiegelglasfabriken GmbH Köln
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b6197287389e558862b878f9f72bbd7 = L.marker(
+                [52.5137, 13.4033],
+                {}
+            ).addTo(map_0bd4c45653c4cfd8056367928785b02f);
+        
+    
+        var popup_c7c6c5defe26a25cf656423796eb4022 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f448b1eaba1203ccaa44aa3ea6db4006 = $(`<div id="html_f448b1eaba1203ccaa44aa3ea6db4006" style="width: 100.0%; height: 100.0%;">     <b>Unternehmen:</b> Hoftischlerei G. & H. Schütze Berlin<br>     <b>Standort:</b> Berlin<br>     <b>Identifier:</b> <a href="Unbekannt" target="_blank">Website</a><br>     </div>`)[0];
+                popup_c7c6c5defe26a25cf656423796eb4022.setContent(html_f448b1eaba1203ccaa44aa3ea6db4006);
+            
+        
+
+        marker_1b6197287389e558862b878f9f72bbd7.bindPopup(popup_c7c6c5defe26a25cf656423796eb4022)
+        ;
+
+        
+    
+    
+            marker_1b6197287389e558862b878f9f72bbd7.bindTooltip(
+                `<div>
+                     Hoftischlerei G. & H. Schütze Berlin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fbc8997f8af162eefda90b580ce4c8f8 = L.marker(
+                [50.9762, 11.033],
+                {}
+            ).addTo(map_0bd4c45653c4cfd8056367928785b02f);
+        
+    
+        var popup_482e496589cb0fde36c8158dfe15c2bb = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_fa41deba06d7c14a78fe52daff8589a3 = $(`<div id="html_fa41deba06d7c14a78fe52daff8589a3" style="width: 100.0%; height: 100.0%;">     <b>Unternehmen:</b> J. A. John Erfurt<br>     <b>Standort:</b> Erfurt<br>     <b>Identifier:</b> <a href="Unbekannt" target="_blank">Website</a><br>     </div>`)[0];
+                popup_482e496589cb0fde36c8158dfe15c2bb.setContent(html_fa41deba06d7c14a78fe52daff8589a3);
+            
+        
+
+        marker_fbc8997f8af162eefda90b580ce4c8f8.bindPopup(popup_482e496589cb0fde36c8158dfe15c2bb)
+        ;
+
+        
+    
+    
+            marker_fbc8997f8af162eefda90b580ce4c8f8.bindTooltip(
+                `<div>
+                     J. A. John Erfurt
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e2bc52f2ac25ce6a0378292c75e2b074 = L.marker(
+                [50.9778, 11.3297],
+                {}
+            ).addTo(map_0bd4c45653c4cfd8056367928785b02f);
+        
+    
+        var popup_7744c73320127351419357f80c8fa5c0 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_bff1a1077177a00bed19dca124499191 = $(`<div id="html_bff1a1077177a00bed19dca124499191" style="width: 100.0%; height: 100.0%;">     <b>Unternehmen:</b> Johannes Haag Berlin-Weimar<br>     <b>Standort:</b> Weimar<br>     <b>Identifier:</b> <a href="Unbekannt" target="_blank">Website</a><br>     </div>`)[0];
+                popup_7744c73320127351419357f80c8fa5c0.setContent(html_bff1a1077177a00bed19dca124499191);
+            
+        
+
+        marker_e2bc52f2ac25ce6a0378292c75e2b074.bindPopup(popup_7744c73320127351419357f80c8fa5c0)
+        ;
+
+        
+    
+    
+            marker_e2bc52f2ac25ce6a0378292c75e2b074.bindTooltip(
+                `<div>
+                     Johannes Haag Berlin-Weimar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            tile_layer_a92ce18aa02d6a5c5e1ea2d0c5ab8691.addTo(map_0bd4c45653c4cfd8056367928785b02f);
+        
+</script>
+</html>
